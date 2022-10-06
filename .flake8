@@ -11,6 +11,6 @@ max-line-length = 120
 # N801: Class name should use CapWords convention
 # W503: Line break occurred before a binary operator
 ignore = D205,E203,H301,H404,H405,H903,N801,W503
-exclude = __pycache__,.venv,docs,tests,__inity__.py
+exclude = __pycache__,.venv,docs,tests,__init__.py
 application-import-names = poetry_dependencies_updater,tests
 import-order-style = smarkets
