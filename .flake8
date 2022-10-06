@@ -1,0 +1,16 @@
+# TODO: Merge this into pyproject.toml when it is supported
+#       https://gitlab.com/pycqa/flake8/issues/428
+[flake8]
+max-line-length = 120
+# D205: 1 blank line required between summary line and description
+# E203: Whitespace before ':'
+# H301: One import per line
+# H404: Multi line docstrings should start without a leading new line.
+# H405: Multi line docstrings should start with a one line summary followed by an empty line.
+# H903: Windows style line endings not allowed in code
+# N801: Class name should use CapWords convention
+# W503: Line break occurred before a binary operator
+ignore = D205,E203,H301,H404,H405,H903,N801,W503
+exclude = __pycache__,.venv,docs,tests
+application-import-names = poetry_dependencies_updater,tests
+import-order-style = smarkets
