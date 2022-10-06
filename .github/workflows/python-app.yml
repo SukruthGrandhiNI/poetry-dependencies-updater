@@ -27,7 +27,7 @@ jobs:
           python-version: ${{ matrix.python_version }}
       - uses: Gr1N/setup-poetry@v7
         with:
-          poetry-version: 1.1.7
+          poetry-version: 1.1.13
       - name: poetry version
         run: |
           poetry --version
