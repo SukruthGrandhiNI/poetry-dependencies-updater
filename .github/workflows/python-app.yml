@@ -14,7 +14,9 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on:
+      - self-hosted
+      - la
     strategy:
       matrix:
         python_version: ["3.10"]
